@@ -5,41 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.6</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.vineeth.learning</groupId>
+        <artifactId>spring_in_depth</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>..</relativePath>
     </parent>
-    <properties>
-        <java.version>11</java.version>
-    </properties>
-    <groupId>org.example</groupId>
+
     <artifactId>spring-boot-2.0-essential-training</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
-
+    <name>spring-boot-2.0</name>
+    <description>Demo project for spring-boot-2.0-essential-training</description>
 
 </project>

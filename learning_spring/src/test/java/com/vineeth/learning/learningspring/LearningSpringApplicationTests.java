@@ -1,4 +1,4 @@
-package learningspring;
+package com.vineeth.learning.learningspring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

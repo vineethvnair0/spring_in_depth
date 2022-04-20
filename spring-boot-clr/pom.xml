@@ -5,19 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.6</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.vineeth.learning</groupId>
+        <artifactId>spring_in_depth</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>..</relativePath>
     </parent>
 
-    <groupId>com.vineeth.learning</groupId>
     <artifactId>spring-boot-clr</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-
-    <properties>
-        <java.version>11</java.version>
-    </properties>
+    <name>spring-boot-clr</name>
+    <description>Demo project for Spring Boot CLR</description>
 
     <dependencies>
     <dependency>
@@ -33,15 +29,4 @@
             <artifactId>spring-web</artifactId>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
-
 </project>
