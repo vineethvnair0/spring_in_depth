@@ -29,6 +29,7 @@
         <module>spring-message-queue-producer</module>
         <module>spring-security</module>
         <module>spring-framework-in-depth</module>
+        <module>spring-boot-microservice</module>
     </modules>
 
     <dependencies>
